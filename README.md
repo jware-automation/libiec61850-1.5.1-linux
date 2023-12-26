@@ -1,4 +1,4 @@
-# README libIEC61850
+# README libIEC61850 (This is an implementation of Substation IEDs using LIBIEC61850)
 
 [![Build Status](https://travis-ci.org/mz-automation/libiec61850.svg?branch=master)](https://travis-ci.org/mz-automation/libiec61850)
 
