@@ -1,0 +1,356 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{49079288-9D84-34D3-9C43-9C10788E1831}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+    <Platform>Win32</Platform>
+    <ProjectName>server_ied20</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\examples\server_ied20\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">server_ied20.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">server_ied20</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\examples\server_ied20\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">server_ied20.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">server_ied20</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\examples\server_ied20\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">server_ied20.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">server_ied20</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\examples\server_ied20\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">server_ied20.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">server_ied20</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\config;C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\common\inc;C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\goose;C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\sampled_values;C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\hal\inc;C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\iec61850\inc;C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\iec61850\inc_private;C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\mms\inc;C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\mms\inc_private;C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\mms\iso_mms\asn1c;C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\logging;C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\hal\inc;C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\examples\server_ied20\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\config;C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\common\inc;C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\goose;C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\sampled_values;C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\hal\inc;C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\iec61850\inc;C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\iec61850\inc_private;C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\mms\inc;C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\mms\inc_private;C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\mms\iso_mms\asn1c;C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\logging;C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\hal\inc;C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\examples\server_ied20\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\config;C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\common\inc;C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\goose;C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\sampled_values;C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\hal\inc;C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\iec61850\inc;C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\iec61850\inc_private;C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\mms\inc;C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\mms\inc_private;C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\mms\iso_mms\asn1c;C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\logging;C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\hal\inc;C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\examples\server_ied20\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\..\src\Debug\iec61850.lib;..\..\hal\Debug\hal.lib;..\..\hal\..\third_party\winpcap\Lib\wpcap.lib;..\..\hal\..\third_party\winpcap\Lib\packet.lib;..\..\src\..\third_party\winpcap\lib\wpcap.lib;..\..\src\..\third_party\winpcap\lib\packet.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/Janith/Documents/jWare Automation/Oren/libiec61850-1.5.1/examples/server_ied20/Debug/server_ied20.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/Janith/Documents/jWare Automation/Oren/libiec61850-1.5.1/examples/server_ied20/Debug/server_ied20.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\config;C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\common\inc;C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\goose;C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\sampled_values;C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\hal\inc;C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\iec61850\inc;C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\iec61850\inc_private;C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\mms\inc;C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\mms\inc_private;C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\mms\iso_mms\asn1c;C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\logging;C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\hal\inc;C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\examples\server_ied20\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\config;C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\common\inc;C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\goose;C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\sampled_values;C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\hal\inc;C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\iec61850\inc;C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\iec61850\inc_private;C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\mms\inc;C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\mms\inc_private;C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\mms\iso_mms\asn1c;C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\logging;C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\hal\inc;C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\examples\server_ied20\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\config;C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\common\inc;C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\goose;C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\sampled_values;C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\hal\inc;C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\iec61850\inc;C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\iec61850\inc_private;C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\mms\inc;C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\mms\inc_private;C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\mms\iso_mms\asn1c;C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\logging;C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\hal\inc;C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\examples\server_ied20\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\..\src\Release\iec61850.lib;..\..\hal\Release\hal.lib;..\..\hal\..\third_party\winpcap\Lib\wpcap.lib;..\..\hal\..\third_party\winpcap\Lib\packet.lib;..\..\src\..\third_party\winpcap\lib\wpcap.lib;..\..\src\..\third_party\winpcap\lib\packet.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/Janith/Documents/jWare Automation/Oren/libiec61850-1.5.1/examples/server_ied20/Release/server_ied20.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/Janith/Documents/jWare Automation/Oren/libiec61850-1.5.1/examples/server_ied20/Release/server_ied20.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\config;C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\common\inc;C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\goose;C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\sampled_values;C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\hal\inc;C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\iec61850\inc;C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\iec61850\inc_private;C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\mms\inc;C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\mms\inc_private;C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\mms\iso_mms\asn1c;C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\logging;C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\hal\inc;C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\examples\server_ied20\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\config;C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\common\inc;C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\goose;C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\sampled_values;C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\hal\inc;C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\iec61850\inc;C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\iec61850\inc_private;C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\mms\inc;C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\mms\inc_private;C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\mms\iso_mms\asn1c;C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\logging;C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\hal\inc;C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\examples\server_ied20\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\config;C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\common\inc;C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\goose;C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\sampled_values;C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\hal\inc;C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\iec61850\inc;C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\iec61850\inc_private;C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\mms\inc;C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\mms\inc_private;C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\mms\iso_mms\asn1c;C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\logging;C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\hal\inc;C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\examples\server_ied20\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\..\src\MinSizeRel\iec61850.lib;..\..\hal\MinSizeRel\hal.lib;..\..\hal\..\third_party\winpcap\Lib\wpcap.lib;..\..\hal\..\third_party\winpcap\Lib\packet.lib;..\..\src\..\third_party\winpcap\lib\wpcap.lib;..\..\src\..\third_party\winpcap\lib\packet.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/Janith/Documents/jWare Automation/Oren/libiec61850-1.5.1/examples/server_ied20/MinSizeRel/server_ied20.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/Janith/Documents/jWare Automation/Oren/libiec61850-1.5.1/examples/server_ied20/MinSizeRel/server_ied20.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\config;C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\common\inc;C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\goose;C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\sampled_values;C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\hal\inc;C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\iec61850\inc;C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\iec61850\inc_private;C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\mms\inc;C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\mms\inc_private;C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\mms\iso_mms\asn1c;C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\logging;C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\hal\inc;C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\examples\server_ied20\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\config;C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\common\inc;C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\goose;C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\sampled_values;C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\hal\inc;C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\iec61850\inc;C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\iec61850\inc_private;C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\mms\inc;C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\mms\inc_private;C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\mms\iso_mms\asn1c;C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\logging;C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\hal\inc;C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\examples\server_ied20\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\config;C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\common\inc;C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\goose;C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\sampled_values;C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\hal\inc;C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\iec61850\inc;C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\iec61850\inc_private;C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\mms\inc;C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\mms\inc_private;C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\mms\iso_mms\asn1c;C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\logging;C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\hal\inc;C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\examples\server_ied20\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\..\src\RelWithDebInfo\iec61850.lib;..\..\hal\RelWithDebInfo\hal.lib;..\..\hal\..\third_party\winpcap\Lib\wpcap.lib;..\..\hal\..\third_party\winpcap\Lib\packet.lib;..\..\src\..\third_party\winpcap\lib\wpcap.lib;..\..\src\..\third_party\winpcap\lib\packet.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/Janith/Documents/jWare Automation/Oren/libiec61850-1.5.1/examples/server_ied20/RelWithDebInfo/server_ied20.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/Janith/Documents/jWare Automation/Oren/libiec61850-1.5.1/examples/server_ied20/RelWithDebInfo/server_ied20.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\examples\server_ied20\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule C:/Users/Janith/Documents/jWare Automation/Oren/libiec61850-1.5.1/examples/server_ied20/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/Janith/Documents/jWare Automation/Oren/libiec61850-1.5.1" "-BC:/Users/Janith/Documents/jWare Automation/Oren/libiec61850-1.5.1" --check-stamp-file "C:/Users/Janith/Documents/jWare Automation/Oren/libiec61850-1.5.1/examples/server_ied20/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\examples\server_ied20\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule C:/Users/Janith/Documents/jWare Automation/Oren/libiec61850-1.5.1/examples/server_ied20/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/Janith/Documents/jWare Automation/Oren/libiec61850-1.5.1" "-BC:/Users/Janith/Documents/jWare Automation/Oren/libiec61850-1.5.1" --check-stamp-file "C:/Users/Janith/Documents/jWare Automation/Oren/libiec61850-1.5.1/examples/server_ied20/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\examples\server_ied20\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule C:/Users/Janith/Documents/jWare Automation/Oren/libiec61850-1.5.1/examples/server_ied20/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/Janith/Documents/jWare Automation/Oren/libiec61850-1.5.1" "-BC:/Users/Janith/Documents/jWare Automation/Oren/libiec61850-1.5.1" --check-stamp-file "C:/Users/Janith/Documents/jWare Automation/Oren/libiec61850-1.5.1/examples/server_ied20/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\examples\server_ied20\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule C:/Users/Janith/Documents/jWare Automation/Oren/libiec61850-1.5.1/examples/server_ied20/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/Janith/Documents/jWare Automation/Oren/libiec61850-1.5.1" "-BC:/Users/Janith/Documents/jWare Automation/Oren/libiec61850-1.5.1" --check-stamp-file "C:/Users/Janith/Documents/jWare Automation/Oren/libiec61850-1.5.1/examples/server_ied20/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\examples\server_ied20\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\examples\server_ied20\server_ied20.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">CompileAsCpp</CompileAs>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ScanSourceforModuleDependencies>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">CompileAsCpp</CompileAs>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</ScanSourceforModuleDependencies>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">CompileAsCpp</CompileAs>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</ScanSourceforModuleDependencies>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">CompileAsCpp</CompileAs>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</ScanSourceforModuleDependencies>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\examples\server_ied20\static_model.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">CompileAsCpp</CompileAs>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ScanSourceforModuleDependencies>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">CompileAsCpp</CompileAs>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</ScanSourceforModuleDependencies>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">CompileAsCpp</CompileAs>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</ScanSourceforModuleDependencies>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">CompileAsCpp</CompileAs>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</ScanSourceforModuleDependencies>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\ZERO_CHECK.vcxproj">
+      <Project>{2D27B299-1C16-38F2-8F97-17AA290342A5}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\hal\hal.vcxproj">
+      <Project>{38355E24-1388-38D9-A9F5-255B70383D7E}</Project>
+      <Name>hal</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\iec61850.vcxproj">
+      <Project>{E078F4DC-A791-3A03-966D-DD32AE82FF6B}</Project>
+      <Name>iec61850</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

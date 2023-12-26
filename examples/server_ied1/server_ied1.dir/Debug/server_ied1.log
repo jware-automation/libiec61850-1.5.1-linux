@@ -1,0 +1,5 @@
+﻿  Building Custom Rule C:/Users/Janith/Documents/jWare Automation/Oren/libiec61850-1.5.1/examples/server_ied1/CMakeLists.txt
+  server_ied1.c
+  static_model.c
+  Generating Code...
+  server_ied1.vcxproj -> C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\examples\server_ied1\Debug\server_ied1.exe

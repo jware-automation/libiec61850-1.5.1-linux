@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\CMakeFiles\d1b58ff1305e1019fd31a41055f50183\PACKAGE_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{3A35404E-ABE1-36F2-852C-1C40EB58F515}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

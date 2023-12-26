@@ -1,0 +1,10 @@
+^C:\USERS\JANITH\DOCUMENTS\JWARE AUTOMATION\OREN\LIBIEC61850-1.5.1\HAL\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/Janith/Documents/jWare Automation/Oren/libiec61850-1.5.1" "-BC:/Users/Janith/Documents/jWare Automation/Oren/libiec61850-1.5.1" --check-stamp-file "C:/Users/Janith/Documents/jWare Automation/Oren/libiec61850-1.5.1/hal/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

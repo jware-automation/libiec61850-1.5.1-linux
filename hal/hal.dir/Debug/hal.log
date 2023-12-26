@@ -1,0 +1,19 @@
+﻿  socket_win32.c
+  thread_win32.c
+  file_provider_win32.c
+C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\hal\filesystem\win32\file_provider_win32.c(55,34): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\hal\filesystem\win32\file_provider_win32.c(57,34): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\hal\filesystem\win32\file_provider_win32.c(113,5): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\hal\filesystem\win32\file_provider_win32.c(114,5): warning C4996: 'strncat': This function or variable may be unsafe. Consider using strncat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  time.c
+  serial_port_win32.c
+C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\hal\serial\win32\serial_port_win32.c(45,3): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\hal\serial\win32\serial_port_win32.c(178,1): warning C4533: initialization of 'timeouts' is skipped by 'goto exit_error'
+C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\hal\serial\win32\serial_port_win32.c(151): message : see declaration of 'timeouts'
+C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\hal\serial\win32\serial_port_win32.c(178): message : see declaration of 'exit_error'
+  lib_memory.c
+  ethernet_win32.c
+C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\hal\ethernet\win32\ethernet_win32.c(236,13): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\hal\ethernet\win32\ethernet_win32.c(386,5): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  Generating Code...
+  hal.vcxproj -> C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\hal\Debug\hal.lib

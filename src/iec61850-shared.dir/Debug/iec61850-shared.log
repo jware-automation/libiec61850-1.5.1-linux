@@ -1,0 +1,415 @@
+﻿  string_map.c
+  map.c
+  linked_list.c
+  byte_buffer.c
+  string_utilities.c
+C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\common\string_utilities.c(99,9): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\common\string_utilities.c(135,10): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  buffer_chain.c
+  conversions.c
+  mem_alloc_linked_list.c
+  simple_allocator.c
+  iso_connection.c
+  iso_server.c
+  acse.c
+  mms_type_spec.c
+  mms_value.c
+C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\mms\iso_mms\common\mms_value.c(750,24): warning C4244: 'initializing': conversion from 'uint64_t' to 'uint32_t', possible loss of data
+C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\mms\iso_mms\common\mms_value.c(1117,9): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\mms\iso_mms\common\mms_value.c(1233,9): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\mms\iso_mms\common\mms_value.c(1639,13): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\mms\iso_mms\common\mms_value.c(1762,27): warning C4244: 'initializing': conversion from 'uint64_t' to 'uint16_t', possible loss of data
+C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\mms\iso_mms\common\mms_value.c(2126,9): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\mms\iso_mms\common\mms_value.c(2179,13): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\mms\iso_mms\common\mms_value.c(2208,13): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\mms\iso_mms\common\mms_value.c(2210,13): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\mms\iso_mms\common\mms_value.c(2219,9): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\mms\iso_mms\common\mms_value.c(2223,9): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\mms\iso_mms\common\mms_value.c(2227,9): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\mms\iso_mms\common\mms_value.c(2236,9): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\mms\iso_mms\common\mms_value.c(2245,17): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\mms\iso_mms\common\mms_value.c(2255,9): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\mms\iso_mms\common\mms_value.c(2262,13): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\mms\iso_mms\common\mms_value.c(2268,9): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\mms\iso_mms\common\mms_value.c(2277,9): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  mms_common_msg.c
+C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\mms\iso_mms\common\mms_common_msg.c(452,5): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\mms\iso_mms\common\mms_common_msg.c(454,5): warning C4996: 'strncat': This function or variable may be unsafe. Consider using strncat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  mms_client_initiate.c
+  mms_client_write.c
+  mms_client_identify.c
+  mms_client_status.c
+  mms_client_named_variable_list.c
+  Generating Code...
+  Compiling...
+  mms_client_connection.c
+  mms_client_files.c
+  mms_client_get_namelist.c
+  mms_client_get_var_access.c
+C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\mms\iso_mms\client\mms_client_get_var_access.c(98,50): warning C4244: '=': conversion from 'Unsigned8_t' to 'uint8_t', possible loss of data
+C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\mms\iso_mms\client\mms_client_get_var_access.c(100,50): warning C4244: '=': conversion from 'Unsigned8_t' to 'uint8_t', possible loss of data
+  mms_client_common.c
+  mms_client_read.c
+  mms_client_journals.c
+  mms_read_service.c
+C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\mms\iso_mms\server\mms_read_service.c(181,29): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\mms\iso_mms\server\mms_read_service.c(182,29): warning C4996: 'strncat': This function or variable may be unsafe. Consider using strncat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\mms\iso_mms\server\mms_read_service.c(348,17): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  mms_file_service.c
+C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\mms\iso_mms\server\mms_file_service.c(754,17): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\mms\iso_mms\server\mms_file_service.c(944,12): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\mms\iso_mms\server\mms_file_service.c(947,10): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  mms_association_service.c
+  mms_identify_service.c
+  mms_status_service.c
+  mms_named_variable_list_service.c
+  mms_value_cache.c
+  mms_get_namelist_service.c
+  mms_access_result.c
+  mms_server.c
+  mms_server_common.c
+  mms_named_variable_list.c
+  mms_domain.c
+  Generating Code...
+  Compiling...
+  mms_device.c
+  mms_information_report.c
+  mms_journal.c
+  mms_journal_service.c
+  mms_server_connection.c
+  mms_write_service.c
+  mms_get_var_access_service.c
+  cotp.c
+  iso_presentation.c
+  ber_decode.c
+  asn1_ber_primitive_value.c
+  ber_encoder.c
+  ber_integer.c
+  iso_client_connection.c
+  iso_connection_parameters.c
+  iso_session.c
+  client_control.c
+C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\iec61850\client\client_control.c(218,9): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\iec61850\client\client_control.c(219,9): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\iec61850\client\client_control.c(474,5): warning C4996: 'strncat': This function or variable may be unsafe. Consider using strncat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\iec61850\client\client_control.c(505,5): warning C4996: 'strncat': This function or variable may be unsafe. Consider using strncat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\iec61850\client\client_control.c(610,5): warning C4996: 'strncat': This function or variable may be unsafe. Consider using strncat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\iec61850\client\client_control.c(727,5): warning C4996: 'strncat': This function or variable may be unsafe. Consider using strncat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\iec61850\client\client_control.c(856,5): warning C4996: 'strncat': This function or variable may be unsafe. Consider using strncat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\iec61850\client\client_control.c(902,5): warning C4996: 'strncat': This function or variable may be unsafe. Consider using strncat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\iec61850\client\client_control.c(989,17): warning C4996: 'strncat': This function or variable may be unsafe. Consider using strncat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\iec61850\client\client_control.c(1034,5): warning C4996: 'strncat': This function or variable may be unsafe. Consider using strncat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\iec61850\client\client_control.c(1132,5): warning C4996: 'strncat': This function or variable may be unsafe. Consider using strncat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\iec61850\client\client_control.c(1232,5): warning C4996: 'strncat': This function or variable may be unsafe. Consider using strncat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  client_report_control.c
+C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\iec61850\client\client_report_control.c(606,5): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\iec61850\client\client_report_control.c(656,5): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\iec61850\client\client_report_control.c(862,6): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\iec61850\client\client_report_control.c(880,10): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\iec61850\client\client_report_control.c(890,10): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\iec61850\client\client_report_control.c(897,10): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\iec61850\client\client_report_control.c(904,10): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\iec61850\client\client_report_control.c(911,10): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\iec61850\client\client_report_control.c(918,10): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\iec61850\client\client_report_control.c(925,10): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\iec61850\client\client_report_control.c(932,10): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\iec61850\client\client_report_control.c(939,10): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\iec61850\client\client_report_control.c(953,14): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\iec61850\client\client_report_control.c(964,10): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\iec61850\client\client_report_control.c(974,10): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\iec61850\client\client_report_control.c(981,10): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\iec61850\client\client_report_control.c(988,10): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\iec61850\client\client_report_control.c(1084,5): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\iec61850\client\client_report_control.c(1100,13): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\iec61850\client\client_report_control.c(1112,9): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\iec61850\client\client_report_control.c(1122,9): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\iec61850\client\client_report_control.c(1129,9): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\iec61850\client\client_report_control.c(1136,9): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\iec61850\client\client_report_control.c(1143,9): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\iec61850\client\client_report_control.c(1150,9): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\iec61850\client\client_report_control.c(1157,9): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\iec61850\client\client_report_control.c(1164,9): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\iec61850\client\client_report_control.c(1171,9): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\iec61850\client\client_report_control.c(1185,13): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\iec61850\client\client_report_control.c(1196,9): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\iec61850\client\client_report_control.c(1206,9): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\iec61850\client\client_report_control.c(1214,13): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\iec61850\client\client_report_control.c(1222,9): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  client_goose_control.c
+C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\iec61850\client\client_goose_control.c(421,5): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\iec61850\client\client_goose_control.c(493,5): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\iec61850\client\client_goose_control.c(506,9): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\iec61850\client\client_goose_control.c(513,9): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\iec61850\client\client_goose_control.c(520,9): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\iec61850\client\client_goose_control.c(527,9): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\iec61850\client\client_goose_control.c(534,9): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\iec61850\client\client_goose_control.c(541,9): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\iec61850\client\client_goose_control.c(548,9): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\iec61850\client\client_goose_control.c(555,9): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\iec61850\client\client_goose_control.c(563,9): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  client_sv_control.c
+C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\iec61850\client\client_sv_control.c(103,5): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\iec61850\client\client_sv_control.c(104,5): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\iec61850\client\client_sv_control.c(105,5): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\iec61850\client\client_sv_control.c(141,5): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\iec61850\client\client_sv_control.c(142,5): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\iec61850\client\client_sv_control.c(143,5): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\iec61850\client\client_sv_control.c(174,5): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\iec61850\client\client_sv_control.c(175,5): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\iec61850\client\client_sv_control.c(176,5): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\iec61850\client\client_sv_control.c(207,5): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\iec61850\client\client_sv_control.c(208,5): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\iec61850\client\client_sv_control.c(209,5): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\iec61850\client\client_sv_control.c(240,5): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\iec61850\client\client_sv_control.c(241,5): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\iec61850\client\client_sv_control.c(242,5): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\iec61850\client\client_sv_control.c(283,5): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\iec61850\client\client_sv_control.c(284,5): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\iec61850\client\client_sv_control.c(285,5): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  Generating Code...
+  Compiling...
+  client_report.c
+C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\iec61850\client\client_report.c(340,5): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\iec61850\client\client_report.c(346,5): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\iec61850\client\client_report.c(390,13): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\iec61850\client\client_report.c(496,6): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  ied_connection.c
+C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\iec61850\client\ied_connection.c(1347,21): warning C4244: 'initializing': conversion from 'float' to 'uint32_t', possible loss of data
+C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\iec61850\client\ied_connection.c(2470,5): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\iec61850\client\ied_connection.c(2628,5): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\iec61850\client\ied_connection.c(2712,5): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\iec61850\client\ied_connection.c(2879,5): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\iec61850\client\ied_connection.c(3108,17): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\iec61850\client\ied_connection.c(3110,17): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\iec61850\client\ied_connection.c(3137,9): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\iec61850\client\ied_connection.c(3202,17): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\iec61850\client\ied_connection.c(3204,17): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\iec61850\client\ied_connection.c(3232,9): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\iec61850\client\ied_connection.c(3966,5): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\iec61850\client\ied_connection.c(4029,5): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\iec61850\client\ied_connection.c(4085,5): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\iec61850\client\ied_connection.c(4138,5): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  iec61850_common.c
+C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\iec61850\common\iec61850_common.c(607,9): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\iec61850\common\iec61850_common.c(827,9): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  ied_server.c
+C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\iec61850\server\impl\ied_server.c(60,17): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\iec61850\server\impl\ied_server.c(61,17): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\iec61850\server\impl\ied_server.c(110,21): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\iec61850\server\impl\ied_server.c(145,21): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\iec61850\server\impl\ied_server.c(242,5): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\iec61850\server\impl\ied_server.c(252,5): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\iec61850\server\impl\ied_server.c(305,5): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\iec61850\server\impl\ied_server.c(333,9): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\iec61850\server\impl\ied_server.c(340,13): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\iec61850\server\impl\ied_server.c(376,17): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\iec61850\server\impl\ied_server.c(377,17): warning C4996: 'strncat': This function or variable may be unsafe. Consider using strncat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\iec61850\server\impl\ied_server.c(383,17): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\iec61850\server\impl\ied_server.c(1624,5): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\iec61850\server\impl\ied_server.c(1625,5): warning C4996: 'strncat': This function or variable may be unsafe. Consider using strncat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  ied_server_config.c
+  client_connection.c
+  model.c
+C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\iec61850\server\model\model.c(118,6): warning C4996: 'strncat': This function or variable may be unsafe. Consider using strncat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\iec61850\server\model\model.c(141,9): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\iec61850\server\model\model.c(142,9): warning C4996: 'strncat': This function or variable may be unsafe. Consider using strncat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\iec61850\server\model\model.c(300,5): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\iec61850\server\model\model.c(349,5): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\iec61850\server\model\model.c(358,5): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\iec61850\server\model\model.c(359,5): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\iec61850\server\model\model.c(538,13): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\iec61850\server\model\model.c(543,13): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\iec61850\server\model\model.c(544,13): warning C4996: 'strncat': This function or variable may be unsafe. Consider using strncat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  dynamic_model.c
+C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\iec61850\server\model\dynamic_model.c(728,5): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  cdc.c
+  config_file_parser.c
+C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\iec61850\server\model\config_file_parser.c(175,29): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\iec61850\server\model\config_file_parser.c(189,29): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\iec61850\server\model\config_file_parser.c(205,25): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\iec61850\server\model\config_file_parser.c(213,25): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\iec61850\server\model\config_file_parser.c(226,44): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\iec61850\server\model\config_file_parser.c(251,44): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\iec61850\server\model\config_file_parser.c(267,44): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\iec61850\server\model\config_file_parser.c(272,25): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\iec61850\server\model\config_file_parser.c(282,44): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\iec61850\server\model\config_file_parser.c(300,44): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\iec61850\server\model\config_file_parser.c(323,44): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\iec61850\server\model\config_file_parser.c(346,44): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\iec61850\server\model\config_file_parser.c(361,25): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\iec61850\server\model\config_file_parser.c(399,41): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\iec61850\server\model\config_file_parser.c(410,41): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\iec61850\server\model\config_file_parser.c(418,41): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\iec61850\server\model\config_file_parser.c(426,41): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\iec61850\server\model\config_file_parser.c(434,41): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\iec61850\server\model\config_file_parser.c(442,41): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\iec61850\server\model\config_file_parser.c(451,41): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\iec61850\server\model\config_file_parser.c(475,29): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\iec61850\server\model\config_file_parser.c(507,44): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\iec61850\server\model\config_file_parser.c(545,21): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  control.c
+C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\iec61850\server\mms_mapping\control.c(1717,5): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\iec61850\server\mms_mapping\control.c(1903,5): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  mms_mapping.c
+C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\iec61850\server\mms_mapping\mms_mapping.c(687,9): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\iec61850\server\mms_mapping\mms_mapping.c(1803,5): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\iec61850\server\mms_mapping\mms_mapping.c(1804,5): warning C4996: 'strncat': This function or variable may be unsafe. Consider using strncat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\iec61850\server\mms_mapping\mms_mapping.c(1833,21): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\iec61850\server\mms_mapping\mms_mapping.c(1834,21): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\iec61850\server\mms_mapping\mms_mapping.c(1835,21): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\iec61850\server\mms_mapping\mms_mapping.c(1918,9): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\iec61850\server\mms_mapping\mms_mapping.c(1919,9): warning C4996: 'strncat': This function or variable may be unsafe. Consider using strncat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\iec61850\server\mms_mapping\mms_mapping.c(1939,13): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\iec61850\server\mms_mapping\mms_mapping.c(1940,13): warning C4996: 'strncat': This function or variable may be unsafe. Consider using strncat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\iec61850\server\mms_mapping\mms_mapping.c(2287,5): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\iec61850\server\mms_mapping\mms_mapping.c(2965,5): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\iec61850\server\mms_mapping\mms_mapping.c(3550,21): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\iec61850\server\mms_mapping\mms_mapping.c(4001,5): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  reporting.c
+C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\iec61850\server\mms_mapping\reporting.c(359,21): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\iec61850\server\mms_mapping\reporting.c(429,21): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\iec61850\server\mms_mapping\reporting.c(485,21): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\iec61850\server\mms_mapping\reporting.c(538,21): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\iec61850\server\mms_mapping\reporting.c(602,9): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\iec61850\server\mms_mapping\reporting.c(730,17): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\iec61850\server\mms_mapping\reporting.c(731,17): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\iec61850\server\mms_mapping\reporting.c(732,17): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\iec61850\server\mms_mapping\reporting.c(733,17): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\iec61850\server\mms_mapping\reporting.c(3937,26): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.
+C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\iec61850\server\mms_mapping\reporting.c(3962,28): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.
+  mms_goose.c
+  mms_sv.c
+C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\iec61850\server\mms_mapping\mms_sv.c(135,5): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\iec61850\server\mms_mapping\mms_sv.c(218,5): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  logging.c
+C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\iec61850\server\mms_mapping\logging.c(323,5): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\iec61850\server\mms_mapping\logging.c(448,17): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\iec61850\server\mms_mapping\logging.c(485,5): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\iec61850\server\mms_mapping\logging.c(696,5): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\iec61850\server\mms_mapping\logging.c(816,9): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\iec61850\server\mms_mapping\logging.c(817,9): warning C4996: 'strncat': This function or variable may be unsafe. Consider using strncat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\iec61850\server\mms_mapping\logging.c(991,13): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\iec61850\server\mms_mapping\logging.c(1046,9): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\iec61850\server\mms_mapping\logging.c(1047,9): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  log_storage.c
+  goose_subscriber.c
+C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\goose\goose_subscriber.c(44,9): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  goose_receiver.c
+  goose_publisher.c
+C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\goose\goose_publisher.c(430,50): warning C4267: '=': conversion from 'size_t' to 'uint8_t', possible loss of data
+  Generating Code...
+  Compiling...
+  sv_subscriber.c
+  sv_publisher.c
+C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\sampled_values\sv_publisher.c(467,48): warning C4267: '=': conversion from 'size_t' to 'uint8_t', possible loss of data
+C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\sampled_values\sv_publisher.c(740,22): warning C4244: '=': conversion from 'uint16_t' to 'uint8_t', possible loss of data
+  Generating Code...
+  DataAccessError.c
+  DeleteNamedVariableListRequest.c
+  constr_SET_OF.c
+  MmsPdu.c
+  GetNamedVariableListAttributesResponse.c
+  BIT_STRING.c
+  ber_tlv_tag.c
+  constr_SEQUENCE_OF.c
+  asn_SET_OF.c
+  ReadResponse.c
+  InformationReport.c
+  ConfirmedServiceRequest.c
+  DeleteNamedVariableListResponse.c
+  asn_SEQUENCE_OF.c
+  VariableAccessSpecification.c
+  GetVariableAccessAttributesRequest.c
+  xer_support.c
+  ObjectName.c
+  NativeEnumerated.c
+  per_encoder.c
+  Generating Code...
+  Compiling...
+  constr_SEQUENCE.c
+  GetNameListResponse.c
+  MMSString.c
+  InitiateErrorPdu.c
+  IndexRangeSeq.c
+  ConfirmedErrorPDU.c
+  UnconfirmedService.c
+  UTF8String.c
+  ServiceError.c
+  TimeOfDay.c
+  GetNameListRequest.c
+  asn_codecs_prim.c
+  Data.c
+  ScatteredAccessDescription.c
+  ReadRequest.c
+  per_decoder.c
+  Identifier.c
+  ServiceSupportOptions.c
+  Integer8.c
+  ConfirmedServiceResponse.c
+  Generating Code...
+  Compiling...
+  ParameterSupportOptions.c
+  Integer16.c
+  ber_tlv_length.c
+  OCTET_STRING.c
+  DefineNamedVariableListRequest.c
+  FloatingPoint.c
+  xer_encoder.c
+  Unsigned8.c
+  BOOLEAN.c
+  INTEGER.c
+  UnconfirmedPDU.c
+  DataSequence.c
+  constraints.c
+C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\mms\iso_mms\asn1c\constraints.c(52,9): warning C4996: '_vsnprintf': This function or variable may be unsafe. Consider using _vsnprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  der_encoder.c
+  VisibleString.c
+  InitiateResponsePdu.c
+  StructComponent.c
+  Address.c
+  Unsigned16.c
+  ber_decoder.c
+  Generating Code...
+  Compiling...
+  per_support.c
+C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\mms\iso_mms\asn1c\per_support.c(237,34): warning C4267: '=': conversion from 'size_t' to 'uint8_t', possible loss of data
+C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\mms\iso_mms\asn1c\per_support.c(240,41): warning C4267: '=': conversion from 'size_t' to 'uint8_t', possible loss of data
+C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\mms\iso_mms\asn1c\per_support.c(244,42): warning C4267: '=': conversion from 'size_t' to 'uint8_t', possible loss of data
+  WriteResponse.c
+  InitRequestDetail.c
+  InitiateRequestPdu.c
+  DefineNamedVariableListResponse.c
+  NULL.c
+  ListOfVariableSeq.c
+  UtcTime.c
+  ConcludeResponsePDU.c
+  AccessResult.c
+  Integer32.c
+C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\mms\iso_mms\asn1c\Integer32.c(26,15): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+  GetNamedVariableListAttributesRequest.c
+  VariableSpecification.c
+  Unsigned32.c
+  constr_CHOICE.c
+  AlternateAccess.c
+  ObjectClass.c
+  InitResponseDetail.c
+  ConfirmedResponsePdu.c
+  GetVariableAccessAttributesResponse.c
+  Generating Code...
+  Compiling...
+  NativeInteger.c
+C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\mms\iso_mms\asn1c\NativeInteger.c(148,14): warning C4244: '=': conversion from 'unsigned long' to 'uint8_t', possible loss of data
+  xer_decoder.c
+  AlternateAccessSelection.c
+  ConfirmedRequestPdu.c
+  ConcludeRequestPDU.c
+  WriteRequest.c
+  RejectPDU.c
+  TypeSpecification.c
+  constr_TYPE.c
+  GeneralizedTime.c
+C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\mms\iso_mms\asn1c\GeneralizedTime.c(219,14): warning C4996: 'strerror': This function or variable may be unsafe. Consider using strerror_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\mms\iso_mms\asn1c\GeneralizedTime.c(311,9): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  Generating Code...
+     Creating library C:/Users/Janith/Documents/jWare Automation/Oren/libiec61850-1.5.1/src/Debug/iec61850.lib and object C:/Users/Janith/Documents/jWare Automation/Oren/libiec61850-1.5.1/src/Debug/iec61850.exp
+  iec61850-shared.vcxproj -> C:\Users\Janith\Documents\jWare Automation\Oren\libiec61850-1.5.1\src\Debug\iec61850.dll
